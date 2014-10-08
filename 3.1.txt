@@ -1,0 +1,70 @@
+Hash characters (#) are used as comments, comment out everything after them
+
+Python interpreter can be used as calculator. Significant digit output is
+equivalent to what you put in:
+
+8/5 = 1     (integers) (floor division)
+8/5.0 = 1.6 (float)
+
+ /   <--- floor division if both units are integers
+ //  <---- always floor division
+ %   <--- remainder calculation
+ **  <---- to the power of
+
+ variables that have been predefined as some value can
+ be multiplied
+
+ last printed expression is assigned to _ , which can be
+ used later
+
+ 10+5
+    15
+ _ + 20
+    35
+
+python supports complex numbers
+
+
+STRINGS
+
+can use single ('') or double ("") quotes interchangeably
+
+ \ is used to escape quotes, for example writing a contraction
+ '"Isn\'t"'
+
+ To not use this feature, adding 'r' before the name uses raw strings
+
+ strings are concatenated with '+', repeated with '*'
+ 3*'un'+'ium' leads to unununium
+
+ two or more strings enclosed in quotes are auto concatenated
+
+strings can be indexed, starting at 0
+    word = 'Python'
+    word[0]     'P'
+    word[-1]    'n'   (negative numbers start from the right)
+
+slicing provides substrings
+    word[0:2]   'Py'
+
+    think of indices as pointing between characters
+
+function len() returns the length of a string
+
+small 'u' in front of a quote indicates that a Unicode string is supposed
+to be created
+
+
+LISTS
+
+lists are bracketed, comma-separated values
+
+lists can be indexed and sliced, concatenatable, mutable
+
+appendable      cubes.append(216)  <--puts 216 at the end of list cubes
+
+
+multiple assignment    a, b = 0, 1  <---make a=0, b=1
+
+a trailing comma after a print command eliminates new lines after each print
+print b vs. print b,
