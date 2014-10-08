@@ -1,0 +1,11 @@
+in python, tabs are important
+
+example:
+
+the_world_is_flat=1
+if the_world_is_flat
+  print "Be careful not to fall off!"
+
+"Be careful not to fall off!"
+
+Without the tab before the print command, nothing would appear.
