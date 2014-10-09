@@ -1,0 +1,67 @@
+IF statement
+
+if x < 0:       <--- note the colon to close the if line
+  x=0
+  print ...
+elif x==0:      <--- else if, and a colon again
+  ...
+else:           <--- else, with a colon
+  ...
+
+
+FOR statements
+
+iterate over the number of items in a list
+example:
+words=['cat', 'window', 'defenestrate']
+for w in words:
+  print w, len (w)
+
+cat 3
+window 6
+defenestrate 12
+
+
+range() function
+generates lists containing arithmetic progressions
+
+range(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+range(5,10)
+[5, 6, 7, 8, 9]
+range(0, 10, 3)
+[0, 3, 6, 9]
+
+'break' statements breaks out of the smallest enclosing for
+or while loop
+
+'continue' statement continues the next iteration of the loop
+
+'pass' statement does nothing but is useful if a program requires syntax,
+such as during the creation of minimal classes
+
+
+DEFINING FUNCTIONS
+
+a function is defined with 'def'
+
+def fib(n):     <--- defines a function fib with parameter n
+  a, b = 0, 1
+  while a < n:
+    print a,
+    a, b = b, a+b
+
+fib(2000)
+  0 1 1 2 3 5 8 13 ...      <--- a fibonacci sequence that will stop
+  at or before 2000
+
+a 'method' is an function that belongs to an object
+  example: result.append(a)     <--- append() is the method belonging to result
+
+defining a function with multiple arguments allows the function
+to be called multiple ways
+1. with only the mandatory argument
+2. with one of the optional arguments
+3. with all arguments
+
+in a function call, keyword arguments must follow positional arguments
